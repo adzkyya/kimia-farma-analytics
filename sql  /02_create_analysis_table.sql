@@ -1,6 +1,6 @@
-CREATE TABLE kimia_farma.tabel_analisa AS SELECT
+CREATE OR REPLACE TABLE kimia_farma.tabel_analisa AS SELECT
 t.transaction_id, t.date, k.branch_name, k.kota, k.provinsi, 
-k.rating AS rating_cabang, t.customer_name, p.product_id, p.product_name, p.price as actual_price,
+k.rating AS rating_cabang, t.customer_name, p.product_id, p.product_name, p.price as actual_price, t.rating as rating_transaksi,
 
 CASE
   WHEN p.price <= 50000 THEN 0.10
