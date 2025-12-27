@@ -71,9 +71,7 @@ nett_profit = nett_sales × persentase_gross_laba
 kimia-farma-analytics/
 ├── README.md
 ├── sql/
-│ ├── 01_check_data.sql
-│ ├── 02_create_analysis_table.sql
-│ └── 03_additional_analysis.sql
+│ └── create_analysis_table.sql
 ├── dashboard/
 │ └── looker_studio_link.txt
 └── presentation/
