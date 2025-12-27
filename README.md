@@ -84,7 +84,7 @@ kimia-farma-analytics/
 Dashboard dibuat menggunakan Google Looker Studio berdasarkan tabel analisa di BigQuery.
 
 Link dashboard:  
- _link_
+https://lookerstudio.google.com/reporting/c6aee3a2-9703-4de7-a64d-bc56de6d4994
 
 ---
 
